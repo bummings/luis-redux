@@ -1,10 +1,14 @@
 import React from "react";
 
+import Display from "./components/Display";
+import Controls from "./components/Controls";
+
 class App extends React.Component {
   render() {
     return (
       <div>
-        <h1>BRUHHHHhhhhhhhh??</h1>
+        <Display />
+        <Controls />
       </div>
     );
   }
