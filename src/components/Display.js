@@ -5,7 +5,7 @@ class Display extends React.Component {
   render() {
     return (
       <div>
-        <div>{this.state.isOpen ? "Open" : "Closed"} </div>
+        <div>{this.props.isOpen ? "Open" : "Closed"} </div>
       </div>
     );
   }
